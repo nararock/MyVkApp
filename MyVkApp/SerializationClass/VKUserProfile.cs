@@ -11,5 +11,8 @@ namespace MyVkApp.SerializationClass
         public string id;
         public string first_name;
         public string last_name;
+        public bool is_closed;
+        public string deactivated;
+        public List<string> sourceID = [];
     }
 }
